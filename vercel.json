@@ -8,5 +8,11 @@
         "buildCommand": "pip install -r requirements.txt"
       }
     }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "api/app.py"
+    }
   ]
 }
