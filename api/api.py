@@ -140,4 +140,4 @@ def delete_item(collection_name, name):
         return jsonify({"error": "Item not found"}), 404
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
